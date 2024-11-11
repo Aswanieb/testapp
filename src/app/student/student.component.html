@@ -1,0 +1,69 @@
+<h1>Student Component</h1>
+<!-- <img src="../assets/fashion1.jpg" height="150px" width="150px">
+<h1>Arun</h1>
+<h1>Welcome  {{name}}</h1>
+<br> -->
+<!-- <h1>sum:{{n+n}}</h1>
+<br>
+<h1>Product:{{10*2}}</h1>
+<br>
+<h1>{{"Hai...."+"Welcome"}}</h1>
+<br>
+<h1>{{name.length}}</h1>
+<br>
+<h1>{{name.toUpperCase()}}</h1>
+<br>
+<h1>{{display()}}</h1> -->
+<!-- <br>
+<input type="text"value="Welcome">
+<br>
+<input type="text"[value]="name">
+<br>
+<input type="text"value="{{name}}"> -->
+
+<!-- --class binding -->
+<!-- <h1 class="danger">{{msg}}</h1>
+<br>
+<h1 [class]="ischeck">{{msg}}</h1> -->
+<!-- <h1 [class.danger]="type1">{{msg}}</h1>
+<br>
+<h1 [class.success]="type2">{{msg}}</h1> -->
+<!-- 
+{{buttonstatus}}
+<br>
+<button (click)="check()"> Click me</button> -->
+<!-- <input type="text"[(ngModel)]="msg">
+<br>
+<input type="text"[(ngModel)]="msg"> -->
+<!-- <button (click)="onclick()" >Click me</button>
+<br>
+<p *ngIf="msg">Hai.......Good Morning</p>
+<br>
+<p *ngIf="!msg">Haiii.....Good Afternoon</p> -->
+<!-- <br>
+<div *ngIf="msg;else t1">
+    Welcome
+</div>
+<ng-template #t1>
+    <p>Hello....Good Morning</p>
+</ng-template> -->
+<!-- <ng-template [ngIf]="msg"[ngIfElse]="t1">
+    <p> Hello...Good Morning</p>
+</ng-template>
+<ng-template #t1>
+    <p>Haiii...Good Afternoon</p>
+</ng-template> -->
+<!-- <ul>
+    <li *ngFor="let item of slist">
+    {{item.Name}} ,{{item.Age}} ,{{item.Mark}}
+</li>
+    </ul> -->
+
+    <container-element [ngSwitch]="today">
+        <span *ngSwitchCase="0"><h1>Sunday</h1></span>
+        <span *ngSwitchCase="1"><h1>Monday</h1></span>
+        <span *ngSwitchCase="2"><h1>Tuesday</h1></span>
+        <span *ngSwitchCase="3"><h1>Wednesday</h1></span>
+        <span *ngSwitchCase="4"><h1>Thursday</h1></span>
+        <span *ngSwitchCase="5"><h1>Friday</h1></span>
+    </container-element>
